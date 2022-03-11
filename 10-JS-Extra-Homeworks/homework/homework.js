@@ -135,7 +135,7 @@ while(cambio){
   }
   return arr;
 }
-
+}
 
 
 
@@ -153,7 +153,7 @@ function buscoInterseccion(arreglo1, arreglo2){
       }
     }
   }
-  return int;
+  return int
 }
 
 
