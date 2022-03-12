@@ -35,14 +35,12 @@ function forEach(array, cb) {
   // Itera sobre la matriz "array" y pasa los valores al callback uno por uno
   // Pista: Estarás invocando a `cb` varias veces (una por cada valor en la matriz)
   //Tu código:
-  //for (i = 0; i < array; i++){
-  //  cb(array[i]);
-  //}
-  array.forEach(function(el) {
-    cb(el)
-  }
-// array.forEach(el=>cb(el))
-//}
+ // for (i = 0; i < array; i++){
+ //   cb(array[i]);
+ // }
+ 
+array.forEach(el=>cb(el))
+}
 
 function map(array, cb) {
   // Crea un nuevo array
